@@ -12,6 +12,7 @@ if choice == "encode":
         if letter == " ":
             encoded = encoded + " "
         else:
+            
             x = letters.index(letter) + shift
             encoded = encoded + letters[x]
 if choice == "decode":
