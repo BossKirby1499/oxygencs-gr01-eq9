@@ -1,14 +1,25 @@
-class App:
-    def __init__(self):
-        self._hub_connection = None
-        self.TICKS = 10
+#!/usr/bin/env python3
 
-        # To be configured by your team
-        self.HOST = None  # Setup your host here
-        self.TOKEN = None  # Setup your token here
-        self.T_MAX = None  # Setup your max temperature here
+import string
 
+shift = 3
+choice = input("would you like to encode or decode?")
+word = input("Please enter text")
+letters = string.ascii_letters + string.punctuation + string.digits
+encoded = ""
+if choice == "encode":
+    for letter in word:
+        if letter == " ":
+            encoded = encoded + " "
+        else:
+            x = letters.index(letter) + shift
+            encoded = encoded + letters[x]
+if choice == "decode":
+    for letter in word:
+        if letter == " ":
+            encoded = encoded + " "
+        else:
+            x = letters.index(letter) - shift
+            encoded = encoded + letters[x]
 
-        self.T_MIN = None  # Setup your min temperature here
-
-    self.DATABASE_URL = None  # Setup your database here
+print(encoded)
