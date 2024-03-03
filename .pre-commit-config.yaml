@@ -7,5 +7,5 @@ repos:
       entry: pylint
       language: system
       types: [python]
-      args: ["-rn", # Only display messages
+      args: [--disable=missing-class-docstring
       ]

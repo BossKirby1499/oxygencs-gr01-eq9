@@ -84,8 +84,6 @@ class App:
         except requests.exceptions.RequestException as e:
             # To implement
             pass
-
-
 if __name__ == "__main__":
     app = App()
     app.start()
