@@ -52,3 +52,10 @@ MIT
 ## Contact
 
 For more information, please feel free to contact the repository owner.
+
+## vérification pre-commit de pylint
+Afin de faire fonctionner le git hooks de pylint, il faut installer pylint sur son ordinateur. vous pouvez utiliser cette ligne de commande 
+```bash
+pip install pylint
+```
+Si vous souhaitez désactiver un type de vérification, vous pouvez le faire dans le fichier .pylintrc en ajoutant le type de vérification à désactiver. 
