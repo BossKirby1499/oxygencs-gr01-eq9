@@ -1,8 +1,6 @@
     [MESSAGES CONTROL]
   disable= 
-    wildcard-import,
-    method-hidden,
-    too-many-lines,
+    missing-class-docstring,
     missing-module-docstring,invalid-name,
     import-error,
     singleton-comparison,
