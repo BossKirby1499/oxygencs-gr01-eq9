@@ -122,6 +122,7 @@ class App:
             db_params = self.DATABASE_URL.split(';')
             db_config = {param.split('=')[0]: param.split('=')[1] for param in db_params}
 
+
         # Connect to your database
             conn = psycopg2.connect(
                 dbname=db_config['Database'],

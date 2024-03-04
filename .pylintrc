@@ -1,0 +1,10 @@
+    [MESSAGES CONTROL]
+  disable= 
+    missing-class-docstring,
+    missing-module-docstring,invalid-name,
+    import-error,
+    singleton-comparison,
+    broad-exception-caught,
+    unused-variable,
+    unused-argument,
+    wrong-import-order
