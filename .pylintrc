@@ -7,4 +7,6 @@
     broad-exception-caught,
     unused-variable,
     unused-argument,
-    wrong-import-order
+    wrong-import-order,
+    unnecessary-pass,
+    line-too-long
