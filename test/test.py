@@ -1,9 +1,11 @@
+# pylint: disable=C0413
+import sys
+import os
 current_dir = os.path.dirname(os.path.abspath(__file__))
 src_dir = os.path.join(current_dir, '../src')
 sys.path.append(src_dir)
+# pylint: enable=C0413
 from main import App
-import sys
-import os
 import json
 import unittest
 from unittest.mock import patch, MagicMock
