@@ -17,8 +17,8 @@ class App:
         load_dotenv()
         self.HOST = os.getenv("HOST")
         self.TOKEN = os.getenv("TOKEN")
-        self.T_MAX = int(os.getenv("T_MAX", 50))  
-        self.T_MIN = int(os.getenv("T_MIN", 20))  
+        self.T_MAX = int(os.getenv("T_MAX", "50"))
+        self.T_MIN = int(os.getenv("T_MIN", "20"))
         self.DATABASE_URL = os.getenv("DATABASE_URL")
 
     def __del__(self):
