@@ -24,7 +24,7 @@ class TestApp(unittest.TestCase):
         mock_cursor = MagicMock()
         mock_connect.return_value = mock_conn
         mock_conn.cursor.return_value = mock_cursor
- 
+
         # Supposons que DATABASE_URL est un attribut de la classe App
         instance = App()
         instance.DATABASE_URL = 'Database=db_name;Username=user;Password=pass;Host=localhost'
