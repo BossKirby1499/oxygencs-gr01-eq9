@@ -59,3 +59,4 @@ Afin de faire fonctionner le git hooks de pylint, il faut installer pylint sur s
 pip install pylint
 ```
 Si vous souhaitez désactiver un type de vérification, vous pouvez le faire dans le fichier .pylintrc en ajoutant le type de vérification à désactiver. 
+test action
