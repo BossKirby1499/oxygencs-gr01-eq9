@@ -60,3 +60,8 @@ pip install pylint
 ```
 Si vous souhaitez désactiver un type de vérification, vous pouvez le faire dans le fichier .pylintrc en ajoutant le type de vérification à désactiver. 
 test action
+
+Vous devez aussi ajouter black pour l'identation de texte 
+```bash
+pip install black
+```
